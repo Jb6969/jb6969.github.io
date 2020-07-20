@@ -1,0 +1,321 @@
+@font-face {
+    font-family: handletter;
+    src: url(/HaloHandletter.otf);
+ }
+@font-face{
+    font-family: butler;
+    src: url(/Butler_Medium.otf);
+}
+
+ @font-face{
+     font-family:parisienne;
+     src: url(/Parisienne-Regular.ttf);
+ }
+ @font-face{
+     font-family: nickainley;
+     src: url(/Nickainley-Normal.ttf);
+ }
+ 
+ @font-face{
+     font-weight: mervale;
+     src: url(/MervaleScript-Regular.ttf);
+ }
+ @font-face{
+     font-family: pecita;
+     src: url(/Pecita.otf);
+ }
+ .con{
+     font-family: handletter;
+     font-size: 45px;
+     background: #f9f9f9;
+     
+     }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    }
+   .navbar{
+    height: 60px;
+    
+  }
+  
+  
+ 
+ #header{
+    background-image: url(/shutters\ .jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+ 
+    
+}
+
+
+ .responsive1{
+     width: 100%;
+     height: auto;
+
+ }
+/* .con-image{
+    width: 100%;
+    height: auto;
+} */
+
+
+.box{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+    align-items:center;
+  
+    
+    height: 100vh 
+    
+
+}
+#brief{
+    text-align: center;
+}
+
+#resume{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #f9f9f9;
+}
+.timeline{
+    font-weight: bold;
+    list-style: none;
+    
+    
+}
+.white{
+    background: white;
+}
+.container{
+    background: white;
+}
+.col-md-6{
+   padding-top: 10px;
+  
+ 
+}
+body{
+    background: #f9f9f9;
+}
+
+.col-md-3{
+    background: #999083;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #999083;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+.con {
+    display: flex;
+    
+    /* justify-content: center */
+    
+}
+h2{
+    text-align: center;
+    font-family: handletter;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.container-text{
+    margin: 15px;
+    padding: 15px;
+}
+.container .h4{
+    font-family: handletter;
+}
+.p1{
+    padding:20px;
+    margin: 10px;
+    letter-spacing: 3px;
+}
+#test{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+   
+}
+/* #work{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+   
+} */
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.text-bond{
+    font-family:pecita;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 35px;
+    margin-right: 10px;
+    
+  
+}
+.text-eva{
+    font-family: parisienne;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.text-kelly{
+    font-family: nickainley;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+/*  Games image  */
+
+/* Games text */
+.gametext{
+   font-family: butler;
+   font-weight: 900;
+   font-size: 20px;
+}
+.caltext{
+    font-family: butler;
+    font-weight: 900;
+    font-size: 20px;
+ }
+ .worldtext{
+    font-family: butler;
+    font-weight: 900;
+    font-size: 20px;
+ }
+ #game img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+
+
+}
+#calcu img{
+    
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#worldm  img{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Bond img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+
+
+}
+#Eva img{
+    
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#kelly  img{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h5{
+    text-align: center;
+}
+#foot{
+    text-align: center;
+    padding:10px;
+    background:#e2e0e0;;
+}
+
+.fab{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 25px;
+}
+ 
+#tweet{
+ padding-left: 25px;
+}
+#facebook{
+    padding-right: 25px;
+}
+#love{
+    margin-top: 15px;
+    font-family: handletter;
+    font-size: 30px;
+}
+/* Media Queries */
+@media(max-width: 770px){
+
+ .con{
+     flex-direction: column;
+ }
+ #test{
+     flex-direction: column;
+ }
+
+
+}
